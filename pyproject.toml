@@ -1,0 +1,12 @@
+[project]
+name = "get_youtube_channel_videos.py"
+version = "0.9"
+dependencies = [
+  "google-api-python-client",
+  "python-dotenv",
+  "docopt",
+]
+requires-python = ">= 3.8"
+
+[tool.ruff.lint]
+ignore = ["E501"]  # Line too long
