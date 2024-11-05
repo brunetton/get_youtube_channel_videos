@@ -17,3 +17,5 @@
   - use this ID to list channel's videos:
 
         uv run get_youtube_channel_videos.py get UCPFvsXRt_9InJA9XeBGpRaA
+
+=> to limit the number of results, have a look to options using `--help` param
